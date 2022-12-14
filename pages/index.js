@@ -7,6 +7,7 @@ import react,{ useState } from 'react'
 import Box2 from '../components/Box/Box2/Box2'
 import { data } from 'autoprefixer'
 
+
 const dataDrinks = {"drinks": []};
 
 export default function Home() {
@@ -64,18 +65,18 @@ export default function Home() {
   // };
   // fetchData();
   return (
-    <div className='bg-slate-600 h-screen'>
-    <div className='bg-slate-600 items-center justify-between'>
+    <div className='bg-gray-400 h-screen'>
+    <div className='bg-gray-400 items-center justify-between'>
     <div className='flex items-center justify-center py-16 w-full'> 
      <form className='my-2'> 
-      <input type="text" name='search' placeholder='search' className='border-2 border-black p-1 w-96'
+      <input type="text" name='search' placeholder='search' className='border-2 p-1 w-96'
       value={searchdrink}
       onChange={event=>setsearchdrink(event.target.value)}
       ></input>
       <button
       type="submit" 
       // onClick={()=>setsearchdrink(value)} 
-      className='bg-white text-black border-2 border-black p-1 w-44 font-bold hover:bg-amber-200'>Search</button>
+      className='bg-white text-black border-2 p-1 w-44 font-bold hover:bg-amber-200'>Search</button>
      </form>
      </div>
      <div className='flex justify-end items-end mx-24'>
