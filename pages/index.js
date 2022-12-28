@@ -76,22 +76,11 @@ export default function Home() {
   // };
   // fetchData();
   return (
-<<<<<<< HEAD
     <div className='bg-gray-400 h-screen'>
     <div className='bg-gray-400 items-center justify-between'>
-=======
-    <div className='h-screen bg-slate-50'>
-    
-    <div className=' items-center justify-between'>
->>>>>>> 2d517dfafa18bb759b9758c77181b2f1b0abc026
     <div className='flex items-center justify-center py-16 w-full'> 
-<<<<<<< HEAD
      <form className='my-2'> 
       <input type="text" name='search' placeholder='search' className='border-2 p-1 w-96'
-=======
-     <form className='my-2' onSubmit={handleSubmit}> 
-      <input type="text" name='search' placeholder='search' className='border-2 border-black p-1 w-96'
->>>>>>> f6ed6b9883b5ac6bf3825f16bc73c2c412dd8adb
       value={searchdrink}
       onChange={submt}
       ></input>
