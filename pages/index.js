@@ -76,8 +76,14 @@ export default function Home() {
   // };
   // fetchData();
   return (
+<<<<<<< HEAD
     <div className='bg-gray-400 h-screen'>
     <div className='bg-gray-400 items-center justify-between'>
+=======
+    <div className='h-screen bg-slate-50'>
+    
+    <div className=' items-center justify-between'>
+>>>>>>> 2d517dfafa18bb759b9758c77181b2f1b0abc026
     <div className='flex items-center justify-center py-16 w-full'> 
 <<<<<<< HEAD
      <form className='my-2'> 
